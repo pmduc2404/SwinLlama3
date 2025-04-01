@@ -16,7 +16,7 @@ import time
 from collections import Counter
 
 class EmotionBasedMusicRecommender:
-    def __init__(self, data_path='data.csv.zip', n_clusters=4):
+    def __init__(self, data_path=r'D:\NCKHSV.2024-2025\SwinLlama3\Music-recommendation-system\Spotify Dataset Analysis\data.csv.zip', n_clusters=4):
         self.n_clusters = n_clusters
         self.data_path = data_path
         self.model_dir = Path('models')
