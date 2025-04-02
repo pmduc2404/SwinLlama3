@@ -9,7 +9,6 @@ face_detection = cv2.CascadeClassifier(detection_model_path)
 emotion_classifier = load_model(emotion_model_path, compile=False)
 EMOTIONS = ["happy", "sad"]
 
-
 def emotion_testing():
     cap = cv2.VideoCapture(0)
     while True:
